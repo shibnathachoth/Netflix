@@ -41,3 +41,15 @@
     height: 7.4rem;
     background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#111);
 }
+.closeButton{
+    background-color: red;
+   float: right;
+   margin: 5px;
+   color: white;
+    border-radius: 4px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+}
