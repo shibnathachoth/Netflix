@@ -1,0 +1,48 @@
+.row{
+    margin-left: 20px;
+    color: #fff;
+}
+.posters{
+    padding: 20px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+    max-height: 250px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.smallposter{
+    max-height: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+ .smallposter:hover{
+    transform: scale(1.1);
+}
+.poster:hover{
+    transform: scale(1.1);
+}
+.modelStyle{
+    text-align: "center";
+    display: "block";
+    padding: 30;
+    margin: "auto";
+}
+.closeButton{
+    background-color: red;
+   float: right;
+   margin: 5px;
+   color: white;
+    border-radius: 4px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+}
